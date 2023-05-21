@@ -49,7 +49,7 @@ const AssistantSection = () => {
             <img
               src="./assets/imgs/bg/1.png"
               alt="1"
-              className="w-[80%] backdrop-blur-[8px]  "
+              className="w-[80%] backdrop-blur-[8px]"
             />
             <div
               className="w-full bg-[#09101b] h-[5rem] absolute bottom-[-5%]"
