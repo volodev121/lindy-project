@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import AssistantSection from "./AssistantSection";
 import SummonSection from "./SummonSection";
 import FeaturesSection from "./FeaturesSection";

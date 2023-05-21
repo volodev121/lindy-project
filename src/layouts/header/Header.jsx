@@ -1,4 +1,3 @@
-import { Children } from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 const Header = () => {
@@ -13,6 +12,7 @@ const Header = () => {
             <img
               src="https://assets.website-files.com/63e15df811f9df22b231e58f/64192fa0407545474eff5841_ArrowLeft%20(1).svg"
               width={"20px"}
+              alt="meet"
             />
           </NavLink>
         </div>
