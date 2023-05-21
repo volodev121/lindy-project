@@ -31,20 +31,20 @@ const Header = () => {
             <Link to="features" smooth={true} duration={500}>
               <p className="font-medium hover:text-[#69bae0] pr-8">Features</p>
             </Link>
-            <Link href="#integrations" smooth={true} duration={500}>
+            <Link to="#integrations" smooth={true} duration={500}>
               <p className="font-medium hover:text-[#69bae0] pr-8">
                 Integrations
               </p>
             </Link>
-            <Link href="#home" smooth={true} duration={500}>
+            <Link to="#home" smooth={true} duration={500}>
               <p className="font-medium hover:text-[#69bae0] pr-8">
                 Principles
               </p>
             </Link>
-            <Link href="#home" smooth={true} duration={500}>
+            <Link to="#home" smooth={true} duration={500}>
               <p className="font-medium hover:text-[#69bae0] pr-8">Blog</p>
             </Link>
-            <Link href="#home" smooth={true} duration={500}>
+            <Link to="#home" smooth={true} duration={500}>
               <p className="font-medium hover:text-[#69bae0] pr-8">Careers</p>
             </Link>
             <a

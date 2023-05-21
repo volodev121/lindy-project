@@ -8,7 +8,9 @@ const SummonSection = () => {
         <div className="video-list w-[600px]">
           <div className="video-item is-active">
             <div className="html-embed-4 w-embed">
-              <video src="./assets/video/4.mp4" autoPlay></video>
+              <video autoPlay loop playsInline muted src="/assets/video/1.mp4">
+                <source src="/assets/video/1.mp4" type="mp4" />
+              </video>
             </div>
           </div>
         </div>
