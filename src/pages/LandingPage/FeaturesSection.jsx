@@ -1,4 +1,4 @@
-import { Typewriter } from "react-simple-typewriter";
+import Typist from "react-text-typist";
 const FeaturesSection = () => {
   return (
     <div
@@ -142,14 +142,18 @@ const FeaturesSection = () => {
                 </h2>
               </div>
               <div className="border rounded-lg h-[50px] w-[50%]">
-                <Typewriter
-                  words={["Eat", "Sleep", "Code", "Repeat!"]}
-                  loop={5}
-                  cursor
-                  cursorStyle="_"
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
+                <Typist
+                  sentences={[
+                    "First Sentence",
+                    "Second Sentence",
+                    "Third Sentence",
+                  ]}
+                  loop={true}
+                  startDelay={200}
+                  pauseTime={1000}
+                  deletingSpeed={200}
+                  typingSpeed={200}
+                  cursorBlinkSpeed={800}
                 />
               </div>
             </div>
